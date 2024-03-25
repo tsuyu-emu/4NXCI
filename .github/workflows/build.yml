@@ -24,7 +24,7 @@ jobs:
       run:
         shell: ${{ matrix.shell }}
 
-    name: hactool-${{ matrix.job_name }}
+    name: fournxci-${{ matrix.job_name }}
     runs-on: ${{ matrix.os }}
     
     steps:
